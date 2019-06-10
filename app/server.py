@@ -9,16 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/twpdtiibczk9it2/model_pickle.pkl?dl=1'
+export_file_url = 'https://www.dropbox.com/s/szqgkryy16wbpsk/skin_model.pkl?dl=1'
 export_file_name = 'export.pkl'
 
-classes = ['Melanocytic nevi',      
-'Melanoma',             
-'Benign keratosis',        
-'Basal cell carcinoma',     
-'Actinic keratoses',        
-'Vascular lesions',        
-'Dermatofibroma '   ]
+classes = ['cancer','benign'   ]
 path = Path(__file__).parent
 
 app = Starlette()
