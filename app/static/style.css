@@ -1,5 +1,11 @@
 body {
-    background-color: #fff;
+    width: 100%;
+ height:100%
+ background-size: 80px;
+ background-image:90px
+  background-repeat: no-repeat;
+  background-image:
+    url(bg.jpg);
 }
 
 .no-display {
@@ -62,3 +68,10 @@ button.analyze-button {
 button:focus {
     outline: 0;
 }
+width: 100%;
+ height:100%
+ background-size: 80px;
+ background-image:90px
+  background-repeat: no-repeat;
+  background-image:
+    url(bg.jpg);
