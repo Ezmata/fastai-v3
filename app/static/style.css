@@ -1,11 +1,4 @@
 body {
-    width: 100%;
- height:100%
- background-size: 80px;
- background-image:90px
-  background-repeat: no-repeat;
-  background-image:
-    url("https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=1rgihSH4aR74QigmQHaHacUpIfGoThVG");
 }
 
 .no-display {
@@ -68,10 +61,4 @@ button.analyze-button {
 button:focus {
     outline: 0;
 }
-width: 100%;
- height:100%
- background-size: 80px;
- background-image:90px
-  background-repeat: no-repeat;
-  background-image:
-    url(bg.jpg);
+
